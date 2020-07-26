@@ -41,25 +41,27 @@
           <div class="row" id="mars-facts">
             <h4>Mars Facts</h4>
             {{ mars.facts | safe }}
+          </div>
+        </div>
+      </div>
           <br>
-          <div class="container-fluid padding">
             <!-- Mars Hemispheres -->
-            <div class="row" id="mars-hemisphere-images">
-              <div class="col-md-6">
-                <h2>Mars Hemisphere Images</h2>
+            
+        <div class="row" id="mars-hemisphere-image">
+          <div class="page-header">
+              <div class="col-md-8">
+                <h2 class="text-center">Mars Hemisphere Images</h2>
                 {% for hemisphere in mars.hemisphere_data %}
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <div class="thumbnail">
-                    <img src="{{hemisphere_data.image_url }}"
-                    alt="..."/>
+                    <img src="{{mars.image_url}}"
+                    alt="Responsive Image">
                   </div>
                 </div>
                 {% endfor %}
               </div>
-            </div>
+          </div>
         </div>
-        </div>
-      </div>
   </div>
 </body>
 </html>
