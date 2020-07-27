@@ -2,6 +2,6 @@
 
 ###Challenge
 
-![portfolio.png]
+![](resources/portfolio.png)
 
-![missiontomars.png]
+![](resources/missiontomars.png)
