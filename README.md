@@ -5,3 +5,5 @@
 ![](https://github.com/bbar12/Mission-to-Mars/blob/master/resources/portfolio.PNG)
 
 ![](https://github.com/bbar12/Mission-to-Mars/blob/master/resources/missiontomars.PNG)
+
+![](https://github.com/bbar12/Mission-to-Mars/blob/master/resources/hemispheres.PNG)
